@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    font-size: 14px;
+    text-align: center;
+    margin: 70px ;
+    max-width: 1330px;
+    max-height: 1056px;
+    background-color: rgb(29, 49, 38);
+    
+    
+}
+.card {
+    max-width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    
+    
+
+}
+.card img {
+    width: 100%;
+    float: left;
+    height: auto;
+}
+ .img {
+    width: 100%;
+    height: auto;
+    
+ }
+ .img img {
+    border-radius: 10px 10px 10px 10px;
+ }
+  .text {
+    width: 2px auto;
+    margin: 6px;
+   
+    float: left;
+  }
+  
+
+.button  {
+   width: 80%;
+   margin: 20px auto;
+   border-radius: 20px;
+   background-color: rgb(11, 17, 1);
+}
+a {
+ color: antiquewhite;
+ text-decoration: none;
+}
+.attribution {
+    margin-top: 20px;
+}
+@media screen and (max-width: 600px){
+    body {
+        min-width: 375px;
+    }
+    .card{
+        width: 375px;
+    }
+    img img {
+        width: 375px;
+    }
+}
